@@ -1,0 +1,17 @@
+<!-- <mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Custom Toolbar</span>
+  </mat-toolbar-row>
+</mat-toolbar> -->
+
+<mat-toolbar color="primary">
+  <!-- <mat-toolbar-row> -->
+    <span class="nav-cstm1 {{nav == 1 ? 'nav-clicked' : ''}}" (click)="navClick(1)" routerLink="/home/about">About</span>
+    <span class="nav-cstm1 {{nav == 2 ? 'nav-clicked' : ''}}" (click)="navClick(2)" routerLink="/home/dashboard">Dashboard</span>
+    <!-- <span class="nav-cstm1 {{nav == 3 ? 'nav-clicked' : ''}}">Three</span> -->
+    <span class="example-spacer"></span>
+    <span class="example-icon nav-cstm1" (click)="onLogout()">Logout</span>
+    <!-- <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon> -->
+    <!-- <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon> -->
+  <!-- </mat-toolbar-row> -->
+</mat-toolbar>

@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# System Log Files
+*.log
+
+# Invoice Attachments
+*.pdf
