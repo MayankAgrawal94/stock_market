@@ -4,7 +4,7 @@ This project was generated with [Angular] and [NodeJS]
 
 ## Check Online 
 
-[Stock Market website demo](http://mayank.frikis.xyz/demo_stock_website/)
+[Stock Market website demo](http://mayank.frikis.xyz/git_publish/demo_stock_website/)
 
 ## Login Credentials
 
